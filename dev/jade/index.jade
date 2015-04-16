@@ -3,8 +3,19 @@ html(lang="en")
 	head
 		meta(charset="utf-8")
 		title Flacoloco bootstrap for simple HTML5 projects
+		link(rel="stylesheet", href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css")
 		link(rel="stylesheet", href="/css/styles.css")
 
 	body
-		h1 HELLO WORLD
+		h1 Responsive grid
+		.pure-g
+			.pure-u1.pure-u-sm-1-2.pure-u-md-1-4.cell
+				p one
+			.pure-u1.pure-u-sm-1-2.pure-u-md-1-4.cell
+				p two
+			.pure-u1.pure-u-sm-1-2.pure-u-md-1-4.cell
+				p three
+			.pure-u1.pure-u-sm-1-2.pure-u-md-1-4.cell
+				p four
+
 		script(type='text/javascript' src="/js/main.js").
